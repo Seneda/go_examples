@@ -1,12 +1,14 @@
 package sort
 
 func Bubble(l []int) []int {
+    s := make([]int, len(l))
+    copy(s, l)
     for i := 0; i < len(l); i++ {
-        for j := 0; j < len(l) - 1; j++ {
-            if l[j] > l[j+1] {
-                l[j], l[j+1] = l[j+1], l[j]
+        for j := 0; j < len(s) - 1; j++ {
+            if s[j] > s[j+1] {
+                s[j], s[j+1] = s[j+1], s[j]
             }
         }
     }
-    return l
+    return s
 }
