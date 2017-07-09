@@ -6,5 +6,5 @@ A repo for storing some small example programs in while I learn Go
 - [X] Fibonacci
 - [X] Calculate Pi
 - [X] Testing Basics
-- [ ] Bubble Sort
+- [X] Bubble Sort
 - [ ] Merge Sort
