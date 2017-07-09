@@ -5,7 +5,7 @@ import "math"
 
 
 func Pi() (p float64){
-    for i := 1.0; i < 1000000000; i = i+4 {
+    for i := 1.0; i < 100000000; i = i+4 {
         p += 4 / i
         p -= 4 / (i + 2)
     }
