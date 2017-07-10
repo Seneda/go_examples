@@ -8,5 +8,5 @@ A repo for storing some small example programs in while I learn Go
 - [X] Testing Basics
 - [X] Bubble Sort
 - [X] Benchmarking Basics
-- [ ] Quick Sort
+- [X] Quick Sort
 - [ ] Merge Sort
