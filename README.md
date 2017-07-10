@@ -9,4 +9,7 @@ A repo for storing some small example programs in while I learn Go
 - [X] Bubble Sort
 - [X] Benchmarking Basics
 - [X] Quick Sort
-- [ ] Merge Sort
+- [ ] Linked List
+- [ ] Binary Tree
+- [ ] Red Black Tree
+
