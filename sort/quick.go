@@ -9,10 +9,11 @@ func Quick(l []int) []int {
 }
 
 func Partition(l []int) ([]int, []int){
-	pivot := l[len(l)-1]
+	pivotindex := len(l)-1 // Choose the last element
+	pivot := l[pivotindex]
 	less := []int{}
 	more := []int{pivot}
-	for _, v := range l[:len(l)-1] {
+	for _, v := range append(l[:pivotindex], l[pivotindex+1:]...) {
 		if v <= pivot {
 			less = append(less, v)
 		} else {
